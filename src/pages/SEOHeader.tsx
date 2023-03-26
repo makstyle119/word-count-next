@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export const SEOHeader = () => {
+const SEOHeader = () => {
 	return (
 		<Head>
 			<title>Word Count App || MAK Development House || MAKSTYLE119</title>
@@ -49,3 +49,5 @@ export const SEOHeader = () => {
 		</Head>
 	);
 };
+
+export default SEOHeader;
