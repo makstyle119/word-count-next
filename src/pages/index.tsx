@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { SEOHeader } from './SEOHeader';
+import SEOHeader from './SEOHeader';
 
 export default function Home() {
 	const getYear: number = new Date().getFullYear();
